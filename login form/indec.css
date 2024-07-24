@@ -22,13 +22,6 @@ body{
     border-radius: 5px;
 }
 
-.index button{
-    font-size: 20px;
-    height: 30px;
-    width: 100px;
-    border-radius: 5px;
-}
-
 .inner{
     display: flex;
     flex-direction: column;
@@ -72,14 +65,24 @@ form input{
     border-radius: 5px;
 }
 
-form button{
+.radio{
+    color: white;
+}
+
+.anchor{
     font-size: 20px;
     height: 30px;
     width: 100px;
     border-radius: 5px;
+    background-color: red;
+    margin: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.radio{
-    color: white;
+a{
+    text-decoration: none;
+    color: black;
 }
 
